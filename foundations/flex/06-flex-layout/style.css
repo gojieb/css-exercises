@@ -30,7 +30,6 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-right: 40px;
 }
 
 .content {
@@ -44,7 +43,6 @@ input {
   display: flex;
   justify-content: space-between;
   background-color:#eeeeee;
-  padding-right: 40px;
 }
 
 body {
@@ -61,7 +59,12 @@ a {
 ul {
   display: flex;
   list-style-type: none;
+  padding: 0px 24px;
   gap: 16px;
+}
+
+img {
+  margin: 16px;
 }
 
 button{
